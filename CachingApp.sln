@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CachingApp", "CachingApp\CachingApp.csproj", "{38D29D8E-8143-409D-B749-AA3D8D8D1F9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLibrary", "DataAccessLibrary\DataAccessLibrary.csproj", "{163E8E53-C583-4EFA-8850-1EE5C17A398D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38D29D8E-8143-409D-B749-AA3D8D8D1F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D29D8E-8143-409D-B749-AA3D8D8D1F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D29D8E-8143-409D-B749-AA3D8D8D1F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D29D8E-8143-409D-B749-AA3D8D8D1F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{163E8E53-C583-4EFA-8850-1EE5C17A398D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{163E8E53-C583-4EFA-8850-1EE5C17A398D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{163E8E53-C583-4EFA-8850-1EE5C17A398D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{163E8E53-C583-4EFA-8850-1EE5C17A398D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFB54CB1-D6DA-4508-A7BB-3CDA471514C3}
+	EndGlobalSection
+EndGlobal

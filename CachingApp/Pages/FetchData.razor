@@ -1,0 +1,17 @@
+﻿@page "/fetchdata"
+
+<PageTitle>Employee Directory</PageTitle>
+
+<h1>Employee Directory</h1>
+
+@if (employees is not null) {
+    foreach(var e in employees) {
+        <h3> @e.FirstName @e.LastName </h3>
+    }
+} else {
+    <h3>Loading ...</h3>
+}
+
+@code {
+
+}
